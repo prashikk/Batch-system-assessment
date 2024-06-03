@@ -146,6 +146,11 @@ body {
     text-align: left;
     transition: transform 0.3s ease-in-out;
 }
+#back{
+    width: 90%;
+    margin: 0%;
+    height: auto;
+}
 .MainPage-Left h1:hover {
     transform: scale(1.1);
 }
@@ -202,6 +207,71 @@ body {
     top: 30%;
 }
 
+#star1{
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: -10%;
+    right: 0%;
+}
+#star2{
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 80%;
+    right: -5%;
+}
+#star3{
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 130%;
+}
+#star4{
+    position: relative;
+    width: 70px;
+    height: auto;
+    left: 55%;
+}
+#star5{
+    position: relative;
+    width: 40px;
+    height: auto;
+    top: -90px;
+    left: -10%;
+}
+#star6{
+    position: relative;
+    width: 50px;
+    height: auto;
+    top: 300px;
+    left: -10%;
+}
+#star7{
+    position: relative;
+    width: 50px;
+    height: auto;
+    top: 200px;
+    left: -50%;
+}
+#star8{
+    position: relative;
+    width: 70px;
+    height: auto;
+    left: 70%;
+}
+#star9{
+    position: relative;
+    width: 70px;
+    height: auto;
+    top: 500px;
+    left: 50px;
+}
+#star10{
+    position: relative;
+    width: 40px;
+    height: auto;
+}
 @media (max-width: 768px) {
     .MainPage {
         flex-direction: column;
@@ -373,6 +443,9 @@ body {
         left: 60%; 
         top: -30%;
     }
+    #star3{
+        display: none;
+    }
 }
 
 
@@ -479,7 +552,6 @@ body {
     .MainPage-3-Left {
         width: 100%;
         padding: 10px;
-        border: 2px solid red;
     }
     
     .MainPage-3-Right {
@@ -523,7 +595,9 @@ body {
     #phone2Top:hover {
         transform: none;
     }
+  
 }
+
 
 /* Main page 4 */ 
 .MainPage-4 {
@@ -794,6 +868,12 @@ color: gray;
     .MainPage-5-Right p {
         font-size: 14px;
     }
+    #star6{
+        position: relative;
+    width: 20px;
+    height: auto;
+    left: 50%;
+    }
 }
 /* Main page 6 */
 .MainPage-6 {
@@ -962,6 +1042,13 @@ color: gray;
     .grid-cell > p {
         font-size: 14px; 
     }
+    #star9{
+
+        position: relative;
+        width: 20px;
+        height: auto;
+        left: 50%;
+    }
 }
 
 
@@ -999,7 +1086,6 @@ color: gray;
 @media (max-width: 768px) {
     #frame {
         width: 90%; 
-        border: 2px solid red;
         margin-top: 0%;
     }
 
@@ -1011,7 +1097,6 @@ color: gray;
 
 @media (max-width: 480px) {
     .MainPage-7{
-        border: 2px solid red;
         display: none;
     }
 }
